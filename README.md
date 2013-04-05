@@ -14,7 +14,7 @@ You can run "crear_compilador.sh" that does it all for you.
 So let's get to the interesting part. The language:
 
 ##Valid Comments
-`
+`````
 /*
 comment 1
 */
@@ -24,10 +24,10 @@ comment 2
 comment 3
 */
 */
-`
+`````
 
 ##Variable definitions (the only place where english keywords are allowed)
-`
+`````
 real 3.14@pi
 int var1
 int var2
@@ -36,31 +36,31 @@ int var4
 string 'hello '@string1
 string 'world'@string2
 string string1+string2@string3
-`
+`````
 
 ##Variable assignation
-`
+`````
 0@var4
-`
+`````
 
 ##Print to console
-`
+`````
 print('0@var4:')
 print(var4)
 print('~(var4)')
 print(~(var4))
-`
+`````
 
 ##Special operations
-`
+`````
 2+@var1
 2-@var1
 2*@var1
 2/@var1
-`
+`````
 
 ##IF condition
-`
+`````
 pi>3.13?
 print('pi is greater than 3.13')
 :
@@ -69,20 +69,20 @@ print('pi is not greater than 3.13')
 /*
 of course you will never reach the "else" code. it's just an example. stop complaining
 */
-`
+`````
 
 ##WHILE loop
-`
+`````
 /*
 while var3<8 keep increasing var3 by one
 */
 {var3<8}
 1+@var3
 ;
-`
+`````
 
 ##FOR loop
-`
+`````
 /*
 there is no difference between while and for. you just add new code before the condition like this:
 {code1:code2:code3:condition}
@@ -95,7 +95,7 @@ Here is a working example:
 print(var3)
 print(var4)
 ;
-`
+`````
 
 
 Warnings:

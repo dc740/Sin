@@ -1,7 +1,7 @@
 Sin
 ===
 
-My own programming language. This is a project I had to to for a class during my engineering studies. So it's completely in spanish.
+My own programming language. This is a project I had to do for a class during my engineering studies. So it's completely in spanish.
 It's basically a proof of concept showing my own language which was designed to avoid all kind of special language keywords
 
 #The entire language is made out of symbols, except for variable declarations.

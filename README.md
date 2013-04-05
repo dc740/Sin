@@ -7,7 +7,7 @@ It's basically a proof of concept showing my own language which was designed to 
 #The entire language is made out of symbols, except for variable declarations.
 
 It has an internal and custom designed state machine as a parser because we were not allowed to use flex.
-To compile it you have to run bison on the .y file, then g++ on the output, and then use the compiler to compile "prueba.txt"
+To compile it you have to run bison on the .y file, then g++ on the output, and then use the compiler to compile "prueba.txt". 
 The output from running the final compiler is an asm file with GNU Assembled compatible code.
 You can run "crear_compilador.sh" that does it all for you.
 

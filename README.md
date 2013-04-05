@@ -105,4 +105,5 @@ This is just a "working" compiler used as proof of concept. It was not meant to 
 The entire program AND the language itself are LGPL licensed.
 
 Copyright 2013 Emilio Moretti <emilio.morettiATgmailDOTcom>
+
 This program is distributed under the terms of the GNU Lesser General Public License.

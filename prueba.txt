@@ -1,0 +1,77 @@
+/*
+@author: Emilio Moretti
+Copyright 2013 Emilio Moretti <emilio.morettiATgmailDOTcom>
+This program is distributed under the terms of the GNU Lesser General Public License.
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Lesser General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU Lesser General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public License
+along with this program. If not, see <http://www.gnu.org/licenses/>.
+*/
+
+
+/*
+comentario 1
+*/
+real 3.14@pi
+int var1
+int var2
+int 0@var3
+int var4
+string 'hola '@string1
+string 'mundo'@string2
+string string1+string2@string3
+
+0@var4
+print('0@var4:')
+print(var4)
+print('~(var4)')
+print(~(var4))
+
+/*
+comentario 2
+/*
+comentario anidado
+*/
+*/
+print('valor de var1')
+42@var1
+print(var1)
+print('var1+2 usando asignaciones especiales')
+2+@var1
+print(var1)
+
+pi>3.13?
+print('pi es mayor que 3.13')
+;
+
+{var3<8}
+1+@var3
+;
+print('despues del while var3 vale:')
+print(var3)
+
+0@var4
+{2+@var4:var4<8}
+1+@var3
+print('Valores de las variables var3 y var4 dentro del for')
+print(var3)
+print(var4)
+;
+
+print('string1:')
+print(string1)
+print('string2:')
+print(string2)
+
+print('Concatenadas:')
+print(string3)
+

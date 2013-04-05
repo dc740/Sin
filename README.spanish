@@ -1,0 +1,14 @@
+El archivo yacc que se llama GrupoTema2.y
+El archivo C que se llama GrupoTema2.c
+El ejecutable del archivo C que se llama GrupoTema2.exec
+El archivo generado por GrupoTema2.exec con el arbol es Intermedia.txt
+El archivo generado por GrupoTema2.exec con el código assembler se llama Final.asm
+El archivo de pruebas se llama prueba.txt
+El compilador se llama Final.exec (resultado de compilar el archivo Final.asm con "as" y linkeado con "ld")
+
+
+Todos los archivos anteriores pueden ser regenerados corriendo "crear_compilador.sh".
+El archivo bootstrap.asm es utilizado internamente por GrupoTema2.exec para generar Final.asm.
+
+Copyright 2013 Emilio Moretti <emilio.morettiATgmailDOTcom>
+This program is distributed under the terms of the GNU Lesser General Public License.
